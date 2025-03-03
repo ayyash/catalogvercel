@@ -1,0 +1,14 @@
+{
+  "API": {
+      "apiRoot": "https://api.catalog.cc"
+  },
+  "Auth": {
+      "userAccessKey": "catalog.user"
+  },
+  "Cache": {
+      "Timeout": 14,
+      "Key": "catalog.cache",
+      "ResetKey": "catalog.20190209"
+  },
+  "isServed": true
+}

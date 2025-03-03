@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/locale/language.js",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "cl-lang",
+          "value": "ar"
+        }
+      ],
+      "destination": "/locale/cl-ar.js"
+    },
+    {
+      "source": "/locale/language.js",
+      "destination": "/locale/cl-en.js"
+    },
+    {
+      "source": "/rtlstyles.css",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "cl-lang",
+          "value": "ar"
+        }
+      ],
+      "destination": "/styles.rtl.css"
+    },
+    {
+      "source": "/rtlstyles.css",
+      "destination": ""
+    },
+    {
+      "source": "/([^.]+)",
+      "destination": "/"
+    }
+  ]
+}
