@@ -1,6 +1,6 @@
 {
   "API": {
-      "apiRoot": "https://api.catalog.cc"
+      "apiRoot": "https://catalogbe.onrender.com/api"
   },
   "Auth": {
       "userAccessKey": "catalog.user"
