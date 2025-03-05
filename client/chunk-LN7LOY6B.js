@@ -1,1 +1,0 @@
-import{g as n}from"./chunk-O2YGMG24.js";import{U as u}from"./chunk-FKNLQJGV.js";var m=class e{transform(t,r,i=null,l=null){return i!==null?n.Plural(r,i,t):l!==null?n.Select(r,l,t):n.Get(r,t)}static \u0275fac=function(r){return new(r||e)};static \u0275pipe=u({name:"translate",type:e,pure:!0})};export{m as a};
